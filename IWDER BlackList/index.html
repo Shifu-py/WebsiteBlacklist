@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/master.css">
+    <script src="js/main.js"></script>
+    <title>Blacklist</title>
+</head>
+
+<body>
+    <header class="actualheader">
+        <nav>
+            <a href="index.html">
+                <figure class="logo"><img onclick="index.html" src="img/logo2.png" alt="logo"></figure>
+            </a>
+            <label for="toggle">&#9776;</label>
+            <!--navbar burger-->
+            <input type="checkbox" id="toggle" />
+
+            <section class="navbar-links">
+                <ul>
+                    <li><a class="subnav" href="#home">Home</a></li>
+                    <li><a class="subnav" href="#about">About</a></li>
+                    <li><a class="subnav" href="#cast">Cast</a></li>
+                    <li><a class="subnav" href="#seasons">Seasons</a></li>
+                    <li><a class="subnav" href="webshop.html">Shop</a></li>
+                </ul>
+            </section>
+        </nav>
+
+        <!-- Achtergrond img en details-->
+
+        <section class="container-info voorSubnav" id="home">
+            <h1 class="indextitle">The Blacklist</h1>
+            <p class="details">After turning himself in, a brilliant fugitive offers to help the FBI bag
+                <br /> other baddies, but only if rookie profiler Elizabeth Keen is his partner.</p>
+            <p class="starring"> <strong> Starring</strong>: James Spader, Megan Boone and Diego Klattenhoff</p>
+            <p class="creator"> <strong> Creator</strong>: Jon Brokenkamp</p>
+        </section>
+
+        <section class="button-container">
+            <button id="buttonwatch" type="button" name="button" class="button">Watch now on Netflix ▶</button>
+        </section>
+    </header>
+    <main class="main-container">
+
+        <section class="voorSubnav">
+            <h2 class="hideme" id="about">""</h2>
+            <!-- Alle h2 met hideme worden gebruikt voor de navigatie, als dit niet wordt gebruikt zullen de titels bij het navigatie niet automatisch verschijnen-->
+            <section class="grid-about">
+                <section class="about">
+                    <h2 class="animatie-titel">About</h2>
+                    <p>The Blacklist is an American crime thriller television series that premiered on NBC on
+                        <time datetime="2013-09-23">September 23, 2013</time>. The show follows Raymond <q>Red</q> Reddington (James Spader), a former U.S. Navy officer turned high-profile criminal, who voluntarily surrenders to the <abbr title="Federal Bureau of Investigation">FBI</abbr> after eluding capture for decades. He tells the <abbr title="Federal Bureau of Investigation">FBI</abbr> that he has a list of the most dangerous criminals in the world that he has compiled over the years and is willing to inform on their operations in exchange for immunity from prosecution. However, he insists on working exclusively with a rookie <abbr title="Federal Bureau of Investigation">FBI</abbr> profiler by the name of Elizabeth Keen (Megan Boone).</p>
+
+                    <p>The series also stars Diego Klattenhoff, Ryan Eggold and Harry Lennix. The pilot episode was written by Jon Bokenkamp and directed by Joe Carnahan. Executive producers for the series include Bokenkamp, John Eisendrath and John Davis for Sony Pictures Television, Universal Television and Davis Entertainment.</p>
+                    <p>Each season has received positive reviews, with many critics praising Spader's performance in particular. On
+                        <time datetime="2019-03-11">March 11, 2019</time>, NBC renewed the series for a seventh season, which premiered on
+                        <time datetime="2019-10-04">October 4, 2019</time>. On
+                        <time datetime="2020-02-20">February 20, 2020</time>, NBC renewed the series for an eighth season.</p>
+                </section>
+
+                <figure class="aboutpic">
+                    <img src="img/aboutpic.jpg" alt="Raymond Red Reddington">
+                    <figcaption>James Spader playing Raymond Red Reddington</figcaption>
+                </figure>
+
+                <section class="plot">
+                    <h2 class="animatie-titel">The Plot</h2>
+                    <p>Raymond <q>Red</q> Reddington, a former US Naval Intelligence officer who had disappeared twenty years earlier to become one of the <abbr title="Federal Bureau of Investigation">FBI</abbr>'s Ten Most Wanted Fugitives, surrenders himself to <abbr title="Federal Bureau of Investigation">FBI</abbr> Assistant Director Harold Cooper at the J. Edgar Hoover Building in Washington, D.C.. Taken to an <abbr title="Federal Bureau of Investigation">FBI</abbr> <q>black site</q>, Reddington claims he wishes to help the <abbr title="Federal Bureau of Investigation">FBI</abbr> track down and apprehend the criminals and terrorists he spent the last twenty years associating with; individuals that are so dangerous and devious that the United States government is unaware of their very existence.</p>
+                    <p>He offers Cooper his knowledge and assistance on two conditions: immunity from prosecution, and that he wants to work exclusively with Elizabeth Keen, a rookie profiler newly assigned to Cooper. Keen and Cooper are suspicious of Reddington's interest in her, but he will only say that she is <q>very special</q>.</p>
+                    <p>The mysteries of Reddington's and Liz's lives, and his interest in her, are gradually revealed as the series progresses.</p>
+                </section>
+
+                <figure class="theplotpic">
+                    <img src="img/theplotpic.jpg" alt="Agent Keen Smith">
+                    <figcaption>Megan Boone playing agent Elizabeth Keen</figcaption>
+                </figure>
+            </section>
+
+        </section>
+
+        <section class="voorSubnav">
+            <h2 class="hideme" id="cast">""</h2>
+            <h1 class="animatie-titel castsection">Cast</h1>
+
+            <section class="cast">
+                <!-- Heeft geen semantieke waarde, wordt alleen gebruikt voor positioning en grid -->
+                <figure><img src="img/jamesspader.jpg" alt="James Spader"></figure>
+                <!-- REVIEW: Een u is een style tag. Die mag niet meer in HTML5. Gebruik hiervoor een span tag met een class die je in je css styled. -->
+
+
+
+
+                <!-- Fixed U tag met span :)-->
+                <p><span class="castNames">James Spader as Raymond <q>Red</q> Reddington:</span>
+                    <br /> A master criminal turned confidential informant for the <abbr title="Federal Bureau of Investigation">FBI</abbr>, later revealed to be Elizabeth Keen's biological father. However, it is revealed during the course of seasons 5 and 6 that he is an impostor who had the real Reddington killed and kept his bones in a suitcase.</p>
+                <figure><img src="img/meganboone.jpg" alt="Megan Boone"></figure>
+                <p><span class="castNames">Megan Boone as Elizabeth <q>Liz</q> Keen:</span>
+                    <br /> Born Masha Rostova, Keen is a special agent and profiler with the <abbr title="Federal Bureau of Investigation">FBI</abbr> on Harold Cooper's team. She is one of the head cast people of The Blacklist, and place a huge role in every episode.</p>
+                <figure><img src="img/diegoklattenhof.png" alt="Diege Klattenhoff"></figure>
+                <p><span class="castNames">Diego Klattenhoff as Donald Ressler:</span>
+                    <br /> A special agent with the <abbr title="Federal Bureau of Investigation">FBI</abbr> on Cooper's team, who also became the Acting Assistant Director of the <abbr title="Federal Bureau of Investigation">FBI</abbr> Counterterrorism Division. He is one of the most badass/edgy character in the whole tv-show series.</p>
+                <figure><img src="img/ryaneggold.jpg" alt="Ryan Eggold"></figure>
+                <p><span class="castNames">Ryan Eggold as Tom Keen:</span>
+                    <br /> Born Christopher Hargrave, later taking the adoptive name Jacob Phelps, Keen works as a covert operative and is Liz's husband. In later seasons he plays a huge role for The Blacklist.</p>
+                <figure><img src="img/aramarison.jpg" alt="Amir Arison"></figure>
+                <p><span class="castNames">Amir Arison as Aram Mojtabai:</span>
+                    <br /> A cyber expert with the <abbr title="Federal Bureau of Investigation">FBI</abbr> on Cooper's team, However he plays a big role in every season of The Blacklist, A truly remarkable hacker and a very nice friend.</p>
+                <figure><img src="img/harrylenix.jfif" alt="Harry Lenix"></figure>
+                <p><span class="castNames">Harry Lennix as Harold Cooper:</span>
+                    <br /> The Assistant Director of the <abbr title="Federal Bureau of Investigation">FBI</abbr> Counterterrorism Division who uses Reddington to stop people on his Blacklist. Eventually he becomes the director of the special taskforce and will play a huge role on The Blacklist.</p>
+                <figure><img src="img/dembezuma.jpg" alt="Hisham Tawiq"></figure>
+                <p><span class="castNames">Hisham Tawfiq as Dembe Zuma:</span>
+                    <br /> Reddington's bodyguard and confidante, and one of the most funny characters in The Blacklist. During the first season he just acts like Reddington's confidanty and bodyguard, but in the later seasons he gets a huge role</p>
+                <figure><img src="img/samarnavabi.jpg" alt="Samar Navabi"></figure>
+                <p><span class="castNames">Mozhan Marnò as Samar Navabi:</span>
+                    <br /> A Mossad agent who works with Cooper's <abbr title="Federal Bureau of Investigation">FBI</abbr> team. She is one of the most badass agents in The Blacklist. She is absent in season 1 and starts her debut in season 2.</p>
+            </section>
+        </section>
+
+        <section class="production-grid">
+            <section class="production">
+                <h2>Production</h2>
+                <p>On
+                    <time datetime="2013-10-04">October 4, 2013</time>, NBC ordered nine additional episodes, filling out the series' first season.
+                    <time datetime="2013-12-03">On December 3, 2013</time>, NBC renewed the series for a 22-episode second season. On
+                    <time datetime="2014-05-11">May 11, 2014</time>, owing to the series' breakout success, NBC decided to air an episode in the coveted post–Super Bowl timeslot in 2015. On
+                    <time datetime="2015-12-05">December 5, 2015</time>, the series was renewed for a fourth season, which premiered on
+                    <time datetime="2016-09-22">September 22, 2016</time>.</p>
+                <p>
+                    <br />A spin-off series, The Blacklist: Redemption, premiered on
+                    <time datetime="2017-02-23">February 23, 2017</time>. On
+                    <time datetime="2017-05-11">May 11, 2017</time>, the series was renewed for a fifth season, while the spin-off was canceled the following day. The fifth season premiered on
+                    <time datetime="2017-09-27">September 27, 2017</time>.</p>
+            </section>
+            <figure><img src="img/developmentpic.jpg" alt="Scene of The Blacklist">
+                <figcaption> A scené in the Black List</figcaption>
+            </figure>
+            <section class="filmingset">
+                <h2>Filming locations and technique</h2>
+                <p>Despite being set in Washington, D.C., the series is mainly filmed in the same Manhattan studio where Law & Order was filmed for 20 years. Producer Richard Heus said they chose to film specific Washington, D.C. locations for the series, including the Lincoln Memorial, the Washington Monument, and the National Mall, because they were <q>iconic American locations</q>. The series is filmed in 4K using Sony PMW-F55 cameras that are adapted to use Panavision lenses. It is edited using Avid Media Composer, and editor Christopher Brookshire says the show has <q>a very distinctive look and pace</q>. An average of three cameras are used at one time, but as many as six cameras are sometimes recording.</p>
+            </section>
+            <figure>
+                <img src="img/filmingset.jpg" alt="Filming set">
+                <figcaption>This is a filmingset in The Blacklist</figcaption>
+            </figure>
+        </section>
+
+        <section class="voorSubnav">
+            <h2 class="hideme" id="seasons">""</h2>
+            <h1 class="animatie-titel seasons">Seasons</h1>
+            <section class="card-grid">
+                <!-- Gebruikt om een grid te positioneren en andere styling elementen-->
+                <section class="card">
+                    <figure class="card-image"><img src="img/card1.jpg" alt="Season 1" style="width:100%"></figure>
+                    <header class="card-text">
+                        <time class="date" datetime="2013-09-24">September 23<sup>th</sup> 2013</time>
+                        <h2>Season 1</h2>
+                        <p>The first season introduces Raymond Reddington, Elizabeth "Liz" Keen and the members of the Task Force, a multiagency law enforcement working group dedicated to hunting down Reddington. Reddington surrenders to the <abbr title="Federal Bureau of Investigation">FBI</abbr> and offers to identify and help capture the criminals he has worked with, whom he calls "The Blacklist," but only if he is allowed to work with Liz Keen, a rookie profiler at the <abbr title="Federal Bureau of Investigation">FBI</abbr>. He refuses to explain why Liz must be involved. </p>
+                    </header>
+                </section>
+
+                <section class="card">
+                    <figure class="card-image"><img src="img/card2.jpg" alt="Season 2" style="width:100%"></figure>
+                    <Header class="card-text">
+                        <time class="date" datetime="2014-09-22">September 22<sup>th</sup> 2014</time>
+                        <h2>Season 2</h2>
+                        <p>The second season follows Reddington's war with The Cabal, a shadowy multinational group that holds positions of influence in government and business, over The Fulcrum, a digital repository of information about The Cabal's illegal activities that both parties want. The season introduces Samar Navabi, a former agent of the Mossad and new member of the Task Force with a connection to Reddington. The first part of the season sees the resolution of Red's conflict with Milos Kirchoff, AKA Berlin.</p>
+                    </Header>
+                </section>
+
+                <section class="card">
+                    <figure class="card-image"><img src="img/card3.jpg" alt="Season 3" style="width:100%"></figure>
+                    <header class="card-text">
+                        <time class="date" datetime="2015-10-01">October 1<sup>st</sup> 2015</time>
+                        <h2>Season 3</h2>
+                        <p>The third season sees Liz and Reddington on the run from the government and the Task Force. The first part of the season explores The Cabal's efforts to capture Liz and Reddington and their efforts to clear Liz's name. The Cabal is represented by the ruthless Director of the National Clandestine Service Peter Kotsiopulos. The season also introduces Susan <q>Scottie</q> Hargrave, the mother of Tom Keen.</p>
+                    </header>
+                </section>
+
+                <section class="card">
+                    <figure class="card-image"><img src="img/card4.jpg" alt="Season 4" style="width:100%"></figure>
+                    <header class="card-text">
+                        <time class="date" datetime="2016-09-22">September 22<sup>th</sup> 2016</time>
+                        <h2>Season 4</h2>
+                        <p>The fourth season of the American crime thriller television series The Blacklist premiered on NBC on
+                            <time datetime="2016-09-22">September 22, 2016</time>. The season was produced by Davis Entertainment, Universal Television and Sony Pictures Television, and the executive producers are Jon Bokenkamp, John Davis, John Eisendrath, John Fox, and Joe Carnahan. The season contained 22 episodes and concluded on
+                            <time datetime="2017-05-18">May 18, 2017</time>
+                        </p>
+                    </header>
+                </section>
+
+                <section class="card">
+                    <figure class="card-image"><img src="img/card5.jpg" alt="Season 5" style="width:100%"></figure>
+                    <header class="card-text">
+                        <time class="date" datetime="2017-09-27">September 27<sup>th</sup> 2017</time>
+                        <h2>Season 5</h2>
+                        <p>The fifth season of the American crime thriller television series The Blacklist premiered on NBC on September 27, 2017, with a timeslot change from Thursday at 10:00 PM to Wednesday at 8:00 PM. The season was produced by Davis Entertainment, Universal Television and Sony Pictures Television, and the executive producers are Jon Bokenkamp, John Davis, John Eisendrath, John Fox, and Joe Carnahan. The season contained 22 episodes and concluded on May 16, 2018. The season aired the series' 100th episode'.</p>
+                    </header>
+                </section>
+
+                <section class="card">
+                    <figure class="card-image"><img src="img/card6.jfif" alt="Season 6" style="width:100%"></figure>
+                    <header class="card-text">
+                        <time class="date" datetime="2019-05-17">May 17<sup>th</sup> 2019</time>
+                        <h2>Season 6</h2>
+                        <p>The sixth season of the American crime thriller television series The Blacklist premiered on NBC on Thursday, January 3, 2019 at 10:00 PM, followed by its time slot premiere on Friday, January 4, 2019 at 9:00 PM. The season contained 22 episodes and concluded on May 17, 2019. Early episode reviews noted that the sixth season was more serialized than previous ones, focusing more on the stories of its main characters and the emotional fallout of recent events</p>
+                    </header>
+                </section>
+            </section>
+            <!-- Card GRID-->
+        </section>
+        <footer> <a href="https://en.wikipedia.org/wiki/The_Blacklist_(TV_series)">Wikipedia source</a> Gemaakt door Shivam Badal-iwder 19/20</footer>
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,1369 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+
+/*header */
+
+html {
+	scroll-behavior: smooth;
+	font-family: 'Poppins', sans-serif;
+}
+
+.activeSubNav {
+	border-bottom: 3px solid #B90000;
+}
+
+abbr {
+	text-decoration: none;
+	font-style: italic;
+}
+
+.actualheader {
+	position: relative;
+	height: 97vh;
+	background: url(../img/achtergrond.jpg) no-repeat center center;
+	background-position: top;
+}
+
+.hideme {
+	padding-top: 100px;
+	color: white;
+}
+
+.logo {
+	padding-top: 10px;
+	width: 70px;
+	float: left;
+}
+
+.container-info {
+	margin: 0 auto;
+	width: 100%;
+	padding: 0px;
+	box-sizing: border-box;
+	padding-left: 5%;
+	padding-top: 10%;
+	font-family: 'Poppins', sans-serif;
+}
+
+.container-info>h1 {
+	text-align: left;
+	font-size: 50px;
+}
+
+.container-info>.details {
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+
+.starring,
+.creator {
+	font-size: 17px;
+	color: crimson;
+}
+
+.button {
+	background-color: #B90000;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 17px;
+	margin: 30px 0px;
+	cursor: pointer;
+	font-family: 'Poppins';
+	transition: ease 1s;
+}
+
+.button:hover {
+	transform: scale(1.2);
+}
+
+.button-container {
+	padding-left: 5%;
+}
+
+
+/*Einde Header*/
+
+
+/*Begin Main*/
+
+.main-container {
+	font-family: 'Poppins';
+}
+
+.grid-about {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-row-gap: 30px;
+	grid-column-gap: 100px;
+	padding: 30px 80px;
+}
+
+.about>h2 {
+	text-align: center;
+	font-size: 30px;
+}
+
+.about>p {
+	text-align: left;
+	padding: 5px 5px;
+	font-size: 18px;
+}
+
+.aboutpic>img {
+	width: 100%;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.theplotpic>img {
+	width: 100%;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.plot>h2 {
+	text-align: center;
+	font-size: 30px;
+}
+
+.plot>p {
+	text-align: left;
+	padding: 5px 5px;
+	font-size: 18px;
+}
+
+figcaption {
+	text-align: center;
+	font-size: 16px;
+	font-style: italic;
+}
+
+.castsection {
+	font-size: 30px;
+	display: grid;
+	grid-template-columns: 1fr;
+	text-align: center;
+}
+
+.cast {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-row-gap: 30px;
+	grid-column-gap: 100px;
+	padding: 30px 80px;
+}
+
+.cast>figure>img {
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cast>p {
+	padding-top: 25%;
+	text-align: left;
+	font-size: 18px;
+	font-style: italic;
+}
+
+.cast>p>.castNames {
+	font-weight: bold;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	text-decoration: underline;
+	cursor: pointer;
+	
+}
+
+.production-grid {
+	padding: 30px 80px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-row-gap: 30px;
+	grid-column-gap: 100px;
+}
+
+.productie-titel {
+	padding-top: 10%;
+	text-align: center;
+	font-size: 30px;
+}
+
+.production>p {
+	text-align: left;
+	font-size: 18px;
+}
+
+.production-grid>figure>img {
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	width: 99%;
+}
+
+.filmingset>h2 {
+	padding-top: 1%;
+	font-size: 25px;
+	text-align: left;
+}
+
+.filmingset>p {
+	text-align: left;
+	font-size: 18px;
+}
+
+
+/*Einde Main*/
+
+
+/*Cards*/
+
+.card-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-row-gap: 30px;
+	grid-column-gap: 100px;
+	padding: 30px 80px;
+}
+
+.card {
+	font-family: "Poppins", sans-serif;
+	border-radius: 18px;
+	background: white;
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+	text-align: center;
+}
+
+.card:hover {
+	transform: translateY(-10px);
+	box-shadow: 0 14px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.5s;
+}
+
+.card-image>img {
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+.card-text {
+	margin: 25px;
+}
+
+.card-text>.date {
+	color: rgb(255, 7, 110);
+	font-size: 13px;
+}
+
+.card-text h2 {
+	font-size: 28px;
+}
+
+.card-text p {
+	color: grey;
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.seasons {
+	text-align: center;
+	font-size: 30px;
+}
+
+
+/*cards end*/
+
+
+/*BEGIN NAV BAR */
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	min-height: 9vh;
+	background-color: #0e0f12/*fornow*/
+	;
+	font-family: 'Poppins', sans-serif;
+	z-index: 1;
+}
+
+.logo {
+	color: rgba(226, 226, 226);
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 22px;
+	margin: .5rem;
+}
+
+.navbar-links ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+.navbar-links li {
+	list-style: none;
+	font-size: 18px;
+	position: relative;
+}
+
+.navbar-links li a {
+	text-decoration: none;
+	color: white;
+	padding: 1rem;
+	display: block;
+}
+.subnav:hover{
+	color: #B90000;
+	transition: 0.1s ease-in;
+}
+
+/*togglen van HAMburger*/
+
+nav>label {
+	color: white;
+	margin: 0 40px 0 0;
+	font-size: 30px;
+	line-height: 70px;
+	display: none;
+}
+
+li a.active {
+	border-bottom: 3px solid #f53b57;
+}
+
+.indextitle {
+	transition: 0.7s all ease-out;
+}
+
+.indextitle:hover {
+	color: crimson;
+}
+
+#toggle {
+	display: none;
+	transition: 1s;
+}
+
+
+/*Eind hamburger gebeure*/
+
+
+/*Einde NAV BAR */
+
+.animatie-titel {
+	transition: 0.7s all ease-out;
+}
+
+.animatie-titel:hover {
+	transform: scale(1.2);
+	color: crimson;
+}
+
+footer {
+	text-align: center;
+}
+
+footer>a {
+	color: #bb0d10;
+}
+
+
+
+@media screen and (max-width:1650px) {
+	.container-info {
+		padding-left: 5%;
+	}
+}
+
+@media screen and (max-width:1500px) {
+	.about>p {
+		text-align: left;
+		padding: 5px 5px;
+		font-size: 17px;
+	}
+	.aboutpic {
+		padding-top: 15%;
+	}
+	.theplotpic {
+		padding-top: 15%;
+	}
+	.cast>p {
+		font-size: 16px;
+		text-align: center;
+	}
+	.cast>p>u {
+		font-size: 18px;
+	}
+	.filmingset>h2 {
+		padding-top: 10%;
+	}
+}
+
+@media screen and (max-width:1400px) {
+	/*header*/
+	.container-info {
+		margin: 0 auto;
+		width: 100%;
+		padding: 0px;
+		box-sizing: border-box;
+		padding-left: 5%;
+		padding-top: 15%;
+		font-family: 'Poppins', sans-serif;
+	}
+	.container-info>h1 {
+		text-align: left;
+		font-size: 40px;
+	}
+	.container-info>.details {
+		font-size: 18px;
+		padding-bottom: 5px;
+	}
+	.starring,
+	.creator {
+		font-size: 15px;
+		color: #bb0d10;
+	}
+	.button-container {
+		padding-left: 5%;
+	}
+	/*ABOUT and plot SECTION*/
+	.aboutpic>figure {
+		padding-top: 10%;
+	}
+	.about>h1 {
+		text-align: center;
+		font-size: 25px;
+	}
+	.about>p {
+		text-align: left;
+		padding: 5px 5px;
+		font-size: 15px;
+	}
+	.plot>h1 {
+		text-align: center;
+		font-size: 25px;
+	}
+	.plot>p {
+		text-align: left;
+		padding: 5px 5px;
+		font-size: 15px;
+	}
+	.theplotpic>figure {
+		padding-top: 10%;
+	}
+	/*CAST*/
+	.cast {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-row-gap: 30px;
+		grid-column-gap: 50px;
+	}
+	.cast>p {
+		padding-top: 20%;
+		text-align: center;
+		font-size: 25px;
+		font-style: italic;
+	}
+	.cast>p>u {
+		font-weight: bold;
+		font-size: 25px;
+		font-style: normal;
+		font-variant: normal;
+	}
+	.cast>figure>img {
+		width: 70%;
+		height: 70%;
+		border-radius: 5px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+	/*producton and fliming */
+	.production>h1 {
+		padding-top: 10%;
+		text-align: center;
+		font-size: 25px;
+	}
+	.production>h2 {
+		padding-top: 10%;
+		font-size: 20px;
+	}
+	.production>p {
+		text-align: left;
+		font-size: 15px;
+	}
+	.production-grid>figure {
+		padding-top: 10%;
+	}
+	.filmingset>h2 {
+		padding-top: 10%;
+		font-size: 20px;
+		text-align: left;
+	}
+	.filmingset>p {
+		text-align: left;
+		font-size: 15px;
+	}
+	/*card*/
+	.card-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-row-gap: 30px;
+		grid-column-gap: 100px;
+		padding: 30px 80px;
+	}
+	.production>p {
+		text-align: left;
+		font-size: 16px;
+	}
+	.filmingset>p {
+		text-align: left;
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width:1200px) {
+	.container-info {
+		margin: 0 auto;
+		width: 100%;
+		padding: 0px;
+		box-sizing: border-box;
+		padding-left: 5%;
+		padding-top: 20%;
+		font-family: 'Poppins', sans-serif;
+	}
+	.container-info>h1 {
+		text-align: left;
+		font-size: 35px;
+	}
+	.container-info>.details {
+		font-size: 16px;
+		padding-bottom: 5px;
+	}
+	.starring,
+	.creator {
+		font-size: 15px;
+		color: #bb0d10;
+	}
+	.button-container {
+		padding-left: 5%;
+	}
+	/*ABOUT and plot SECTION*/
+	.aboutpic>figure {
+		padding-top: 15%;
+	}
+	.about>h1 {
+		text-align: center;
+		font-size: 25px;
+	}
+	.about>p {
+		text-align: left;
+		padding: 5px 5px;
+		font-size: 14px;
+	}
+	.plot>h1 {
+		text-align: center;
+		font-size: 25px;
+	}
+	.plot>p {
+		text-align: left;
+		padding: 5px 5px;
+		font-size: 14px;
+	}
+	.theplotpic>figure {
+		padding-top: 15%;
+	}
+	/*CAST*/
+	.cast {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-row-gap: 30px;
+		grid-column-gap: 50px;
+	}
+	.cast>p {
+		padding-top: 20%;
+		text-align: center;
+		font-size: 25px;
+		font-style: italic;
+	}
+	.cast>p>u {
+		font-weight: bold;
+		font-size: 25px;
+		font-style: normal;
+		font-variant: normal;
+	}
+	.cast>figure>img {
+		width: 70%;
+		height: 70%;
+		border-radius: 5px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+	/*producton and fliming */
+	.production>h1 {
+		padding-top: 10%;
+		text-align: center;
+		font-size: 25px;
+	}
+	.production>h2 {
+		padding-top: 5%;
+		font-size: 20px;
+	}
+	.production>p {
+		text-align: left;
+		font-size: 15px;
+	}
+	.production-grid>figure {
+		padding-top: 20%;
+	}
+	.filmingset>h2 {
+		padding-top: 25%;
+		font-size: 20px;
+		text-align: left;
+	}
+	.filmingset>p {
+		text-align: left;
+		font-size: 15px;
+	}
+	/*card*/
+	.card-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-row-gap: 30px;
+		grid-column-gap: 100px;
+		padding: 30px 80px;
+	}
+}
+
+@media screen and (max-width:1056px) {
+	/*NAV BAR*/
+	.nav-links {
+		width: 60%;
+	}
+	.container-info {
+		margin: 0 auto;
+		width: 100%;
+		padding: 0px;
+		box-sizing: border-box;
+		padding-left: 3%;
+		padding-top: 20%;
+		font-family: 'Poppins', sans-serif;
+	}
+	.container-info>h1 {
+		text-align: left;
+		font-size: 33px;
+	}
+	.container-info>.details {
+		font-size: 15px;
+		padding-bottom: 5px;
+	}
+	.starring,
+	.creator {
+		font-size: 15px;
+		color: #bb0d10;
+	}
+	.button-container {
+		padding-left: 3%;
+	}
+	/*ABOUT and plot SECTION*/
+	.grid-about {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-row-gap: 10px;
+		grid-column-gap: 10px;
+		padding: 30px 80px;
+	}
+	.aboutpic>figure {
+		padding-top: 5%;
+		padding-bottom: 10%;
+	}
+	.about>h1 {
+		text-align: center;
+		font-size: 25px;
+	}
+	.about>p {
+		text-align: center;
+		padding: 5px 5px;
+		font-size: 18px;
+	}
+	.theplotpic>figure {
+		padding-top: 5%;
+		padding-bottom: 10%;
+	}
+	.plot>h1 {
+		text-align: center;
+		font-size: 25px;
+	}
+	.plot>p {
+		text-align: center;
+		padding: 5px 5px;
+		font-size: 18px;
+	}
+	/*CAST*/
+	.cast {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-row-gap: 30px;
+		grid-column-gap: 50px;
+	}
+	.cast>p {
+		padding-top: 10%;
+		text-align: center;
+		font-size: 20px;
+		font-style: italic;
+	}
+	.cast>p>u {
+		font-weight: bold;
+		font-size: 25px;
+		font-style: normal;
+		font-variant: normal;
+	}
+	.cast>figure>img {
+		width: 70%;
+		height: 70%;
+		border-radius: 5px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+	/*producton and fliming */
+	.production-grid {
+		padding: 30px 80px;
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-row-gap: 30px;
+		grid-column-gap: 100px;
+	}
+	.production>h1 {
+		padding-top: 10%;
+		text-align: center;
+		font-size: 30px;
+	}
+	.production>h2 {
+		padding-top: 5%;
+		font-size: 25px;
+	}
+	.production>p {
+		text-align: left;
+		font-size: 18px;
+	}
+	.production-grid>figure {
+		padding-top: 5%;
+	}
+	.filmingset>h2 {
+		padding-top: 5%;
+		font-size: 25px;
+		text-align: left;
+	}
+	.filmingset>p {
+		text-align: left;
+		font-size: 18px;
+	}
+	/*card*/
+	.card-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-row-gap: 30px;
+		grid-column-gap: 100px;
+		padding: 30px 80px;
+	}
+}
+
+@media screen and (max-width:852px) {
+	.cast {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-row-gap: 30px;
+		grid-column-gap: 50px;
+	}
+	.cast>p {
+		padding-top: 5%;
+		text-align: center;
+		font-size: 20px;
+		font-style: italic;
+	}
+	.cast>p>u {
+		font-weight: bold;
+		font-size: 25px;
+		font-style: normal;
+		font-variant: normal;
+	}
+	.cast>figure>img {
+		width: 80%;
+		height: 80%;
+		border-radius: 5px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+	.cast>figure {
+		padding-left: 18%;
+	}
+}
+
+@media screen and (max-width:768px) {
+	/*header*/
+	.indextitle:hover {
+		color: black;
+		transition: none;
+	}
+	.animatie-titel:hover {
+		transform: none;
+		color: black;
+		transition: none;
+	}
+	.button:hover {
+		transform: none;
+	}
+	.navbar-links {
+		display: none;
+		width: 100%;
+	}
+	.subnav:hover{
+		color: white;
+		transition: none;
+	}
+
+	.activeSubNav{
+		border-bottom: none;
+		background-color:#B90000;
+	}
+	li a.active {
+		border-bottom: none;
+	}
+	.indextitle {
+		animation-name: none;
+	}
+	nav>label {
+		position: fixed;
+		right: 1%;
+		top: 2%;
+		display: flex;
+	}
+	nav {
+		position: fixed;
+		top: 0;
+		width: 100%;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.navbar-links ul {
+		width: 100%;
+		flex-direction: column;
+	}
+	.navbar-links li {
+		text-align: center;
+	}
+	.navbar-links li a {
+		padding: .5rem 1rem;
+	}
+	/*HAMBURGER WERKEND MAKEN*/
+	#toggle:checked+.navbar-links {
+		display: flex;
+	}
+	/*EINDE HAMBURGER*/
+	.container-info {
+		margin: 0 auto;
+		width: 100%;
+		padding: 0px;
+		box-sizing: border-box;
+		padding-left: 5%;
+		padding-top: 20%;
+		font-family: 'Poppins', sans-serif;
+	}
+	.button-container {
+		padding-left: 5%;
+	}
+	.grid-about {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-row-gap: 30px;
+		grid-column-gap: 100px;
+		padding: 30px 80px;
+	}
+	/*Cast responsivenes*/
+	.cast {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-row-gap: 50px;
+		grid-column-gap: 50px;
+	}
+	.cast>h1 {
+		font-size: 30px;
+	}
+	.cast>p {
+		padding-top: 1px;
+		text-align: center;
+		font-size: 18px;
+		font-style: italic;
+		padding-bottom: 40px;
+	}
+	.cast>figure>img {
+		width: 70%;
+		height: 70%;
+		border-radius: 5px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+	.cast>figure {
+		padding-left: 24%;
+	}
+	/*Production grid responsivenes*/
+	.production-grid {
+		padding: 30px 80px;
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-row-gap: 30px;
+		grid-column-gap: 100px;
+	}
+	.production>h2 {
+		font-size: 20px;
+		text-align: center;
+	}
+	.production>h1 {
+		padding-top: 1%;
+		text-align: center;
+		font-size: 30px;
+	}
+	.production>p {
+		text-align: center;
+	}
+	/*FIlming set responsivenes*/
+	.filmingset>h2 {
+		padding-top: 5%;
+		font-size: 20px;
+		text-align: center;
+	}
+	.filmingset>p {
+		text-align: center;
+		font-size: 18px;
+	}
+	/*Cards*/
+	.card-grid {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-row-gap: 30px;
+		grid-column-gap: 100px;
+		padding: 30px 80px;
+	}
+	.actualheader {
+		height: 98vh;
+		background: url(../img/achtergrond2.png) no-repeat center center;
+		background-position: top;
+	}
+}
+
+@media screen and (max-width:600px) {
+	.container-info {
+		margin: 0 auto;
+		width: 100%;
+		padding: 0px;
+		box-sizing: border-box;
+		padding-left: 5%;
+		padding-top: 25%;
+		font-family: 'Poppins', sans-serif;
+	}
+	.container-info>h1 {
+		text-align: left;
+		font-size: 40px;
+	}
+	.container-info>.details {
+		font-size: 16px;
+		padding-bottom: 5px;
+	}
+	.starring,
+	.creator {
+		font-size: 15px;
+		color: #bb0d10;
+	}
+	.button-container {
+		padding-left: 5%;
+	}
+	.aboutpic>figure {
+		padding-top: 5%;
+		padding-bottom: 10%;
+	}
+	.about>h2 {
+		text-align: left;
+		font-size: 25px;
+	}
+	.about>p {
+		text-align: left;
+		padding: 5px 5px;
+		font-size: 16px;
+	}
+	.theplotpic>figure {
+		padding-top: 5%;
+		padding-bottom: 10%;
+	}
+	.plot>h2 {
+		text-align: left;
+		font-size: 25px;
+	}
+	.plot>p {
+		text-align: left;
+		padding: 5px 5px;
+		font-size: 16px;
+	}
+	.cast>h1 {
+		font-size: 30px;
+	}
+	.cast>p {
+		text-align: center;
+		font-size: 16px;
+		font-style: italic;
+		padding-bottom: 40px;
+	}
+	.cast>figure>img {
+		width: 90%;
+		height: 90%;
+		border-radius: 5px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+	.cast>figure {
+		padding-left: 10%;
+	}
+	/*production*/
+	.production>h2 {
+		font-size: 20px;
+		text-align: left;
+	}
+	.production>h1 {
+		padding-top: 1%;
+		text-align: center;
+		font-size: 30px;
+	}
+	.production>p {
+		text-align: left;
+		font-size: 16px;
+	}
+	.production-grid {
+		padding: 5px;
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-row-gap: 30px;
+		grid-column-gap: 100px;
+	}
+	/*FIlming set responsivenes*/
+	.filmingset>h2 {
+		padding-top: 5%;
+		font-size: 18px;
+		text-align: left;
+	}
+	.filmingset>p {
+		text-align: left;
+		font-size: 16px;
+	}
+	.card-grid {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-row-gap: 30px;
+		grid-column-gap: 100px;
+		padding: 10px;
+	}
+}
+
+@media screen and (max-width:500px) {
+	.container-info {
+		margin: 0 auto;
+		width: 100%;
+		padding: 0px;
+		box-sizing: border-box;
+		padding-left: 5%;
+		padding-top: 29%;
+		font-family: 'Poppins', sans-serif;
+	}
+	.button-container {
+		padding-left: 5%;
+	}
+	.container-info>h1 {
+		text-align: left;
+		font-size: 40px;
+	}
+	.container-info>.details {
+		font-size: 14px;
+		padding-bottom: 5px;
+	}
+	.starring,
+	.creator {
+		font-size: 14px;
+		color: #bb0d10;
+	}
+	.aboutpic>figure {
+		padding-top: 5%;
+		padding-bottom: 10%;
+	}
+	.about>h1 {
+		text-align: center;
+		font-size: 25px;
+	}
+	.about>p {
+		text-align: center;
+		padding: 5px 5px;
+		font-size: 14px;
+	}
+	.plot>h1 {
+		text-align: center;
+		font-size: 25px;
+	}
+	.plot>p {
+		text-align: center;
+		padding: 5px 5px;
+		font-size: 14px;
+	}
+	/*production*/
+	.production>h2 {
+		font-size: 20px;
+		text-align: center;
+	}
+	.production>h1 {
+		padding-top: 1%;
+		text-align: center;
+		font-size: 30px;
+	}
+	.production>p {
+		text-align: center;
+		font-size: 15px;
+	}
+	/*FIlming set responsivenes*/
+	.filmingset>h2 {
+		padding-top: 5%;
+		font-size: 18px;
+		text-align: center;
+	}
+	.filmingset>p {
+		text-align: center;
+		font-size: 15px;
+	}
+	.cast {
+		grid-row-gap: 30px;
+		grid-column-gap: 100px;
+		padding: 10px;
+	}
+	.cast>figure {
+		padding-right: 50px;
+	}
+	.cast>figure>img {
+		width: 100%;
+		height: 100%;
+		border-radius: 5px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+	.cast>h1 {
+		padding-top: 10px;
+		font-size: 30px;
+	}
+	.cast>p {
+		padding-top: 10%;
+		text-align: center;
+		font-size: 18px;
+		font-style: italic;
+	}
+	.cast>p>u {
+		font-weight: bold;
+		font-size: 20px;
+		font-style: normal;
+		font-variant: normal;
+	}
+	.grid-about {
+		display: grid;
+		padding: 5px;
+		grid-template-columns: 1fr;
+		grid-row-gap: 30px;
+		grid-column-gap: 1000px;
+	}
+	.about>p {
+		text-align: left;
+		padding: 5px 5px;
+		font-size: 15px;
+	}
+	.plot>p {
+		text-align: left;
+		padding: 5px 5px;
+		font-size: 15px;
+	}
+	/*production*/
+	.production>h2 {
+		font-size: 30px;
+		text-align: left;
+	}
+	.production>p {
+		text-align: left;
+		font-size: 15px;
+	}
+	/*FIlming set responsivenes*/
+	.filmingset>h2 {
+		padding-top: 5%;
+		font-size: 25px;
+		text-align: left;
+	}
+	.filmingset>p {
+		text-align: left;
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width:400px) {
+	.container-info {
+		margin: 0 auto;
+		width: 100%;
+		padding: 0px;
+		box-sizing: border-box;
+		padding-left: 5%;
+		padding-top: 30%;
+		font-family: 'Poppins', sans-serif;
+	}
+	.container-info>h1 {
+		text-align: left;
+		font-size: 40px;
+	}
+	.container-info>.details {
+		text-align: left;
+		font-size: 13px;
+		padding-bottom: 5px;
+	}
+	.starring,
+	.creator {
+		text-align: left;
+		font-size: 12px;
+		color: #bb0d10;
+	}
+	.button-container {
+		padding-left: 5%;
+	}
+	.aboutpic>figure {
+		padding-top: 5%;
+		padding-bottom: 10%;
+	}
+	.grid-about {
+		display: grid;
+		padding: 5px;
+		grid-template-columns: 1fr;
+		grid-row-gap: 30px;
+		grid-column-gap: 1000px;
+	}
+	.about>h1 {
+		text-align: center;
+		font-size: 25px;
+	}
+	.about>p {
+		text-align: left;
+		padding: 5px 5px;
+		font-size: 15px;
+	}
+	.theplotpic>figure {
+		padding-top: 5%;
+		padding-bottom: 10%;
+	}
+	.plot>h1 {
+		text-align: center;
+		font-size: 25px;
+	}
+	.plot>p {
+		text-align: left;
+		padding: 5px 5px;
+		font-size: 15px;
+	}
+	.cast>h1 {
+		font-size: 30px;
+	}
+	.cast>p {
+		text-align: center;
+		font-size: 15px;
+		font-style: italic;
+		padding-bottom: 40px;
+	}
+	.cast>p>u {
+		font-weight: bold;
+		font-size: 18px;
+		font-style: normal;
+		font-variant: normal;
+	}
+	.cast>figure>img {
+		width: 90%;
+		height: 90%;
+		border-radius: 5px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+	.cast>figure {
+		padding-left: 10%;
+	}
+	/*production*/
+	.production>h2 {
+		font-size: 20px;
+		text-align: left;
+	}
+	.production>h1 {
+		padding-top: 1%;
+		text-align: center;
+		font-size: 30px;
+	}
+	.production>p {
+		text-align: left;
+		font-size: 15px;
+	}
+	/*FIlming set responsivenes*/
+	.filmingset>h2 {
+		padding-top: 5%;
+		font-size: 20px;
+		text-align: left;
+	}
+	.filmingset>p {
+		text-align: left;
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width:400px) {
+	.cast>figure {
+		padding-left: 21%;
+	}
+	.cast>p {
+		text-align: center;
+		font-size: 13px;
+		font-style: italic;
+		padding-bottom: 40px;
+	}
+	figcaption {
+		font-size: 13px;
+	}
+	.cast>p>u {
+		font-weight: bold;
+		font-size: 18px;
+		font-style: normal;
+		font-variant: normal;
+	}
+	.card-grid {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-row-gap: 30px;
+		grid-column-gap: 100px;
+		padding: 15px;
+	}
+	.card-text h2 {
+		padding-bottom: 10%;
+		font-size: 28px;
+	}
+	.navbar-links.active {
+		display: flex;
+		position: absolute;
+		top: 100%;
+		background-color: red;
+	}
+}
+
+
+/* voor een rede moet de nav-active hier, anders gaat het het nooit werken :(*/
+
+.nav-active {
+	transform: translateX(0%);
+}
+
+
+/*Einde Animatie NAVBAR*/

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/webshop.css">
+    <title>Webshop</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href ="index.html">
+        <figure class="logo"><img src="img/logo2.png" alt="logo"></figure>
+      </a>
+
+        <label for="toggle">&#9776;</label> <!--navbar burger-->
+        <input type="checkbox" id="toggle"/>
+
+        <section class="navbar-links">
+
+        <ul>
+          <li><a class="subnav" href="index.html">Home</a></li>
+          <li><a class="subnav active" href="webshop.html">Shop</a></li>
+        </ul>
+      </section>
+      </nav>
+
+    </header>
+    <main>
+      <h1 class="titel">Webshop</h1>
+      <section class="card-grid">    <!-- Wordt gebruikt om de cards in een grid te positioneren -->
+        <section class="card" onclick="laatProductZien('whiteshirt')">
+          <figure class="card-image"><img src="webshopimg/shirt/kast.jpg" alt="White shirt" style="width:100% "></figure>
+          <header class="card-text">
+            <h3 class="date">Storage: 100</h3>
+            <h2>White Shirt</h2>
+            <p>A nice white shirt of the BlackList, If you like Raymond Red Reddington you will certainly like this</p>
+            <h3>Price: $11</h3>
+            <button id="orderpage" type="button" name="button" class="shopbutton">Buy now</button>
+            </header>
+      </section>
+
+      <section class="card" onclick="laatProductZien('blackshirt')">
+        <figure class="card-image"><img src="webshopimg/shirt/black.jpg" alt="Black shirt" style="width:100% "></figure>
+        <header class="card-text">
+          <h3 class="date">Storage: 74</h3>
+          <h2>Black Shirt</h2>
+          <p>Red is not perfect Fitted Scoop T-Shirt. If you are a quirky a Raymond, you will like this</p>
+          <h3>Price: $11</h3>
+          <button id="orderpage2" type="button" name="button" class="shopbutton">Buy now</button>
+        </header>
+      </section>
+
+      <section class="card" onclick="laatProductZien('redshirt')">
+        <figure class="card-image"><img src="webshopimg/shirt/red.jpg" alt="Red shirt" style="width:100% "></figure>
+        <header class="card-text">
+          <h3 class="date">Storage: 69</h3>
+          <h2>Red Shirt</h2>
+          <p>I Speak Only With Lizzie Slim Fit T-Shirt. If you would like to talk to liz, this is a perfect shirt for you!</p>
+          <h3>Price: $11</h3>
+          <button id="orderpage3" type="button" name="button" class="shopbutton">Buy now</button>
+        </header>
+      </section>
+
+      <section class="card" onclick="laatProductZien('spiralnotebook')">
+        <figure class="card-image"><img src="webshopimg/shirt/notebook.jpg" alt="NoteBook" style="width:100% "></figure>
+        <header class="card-text">
+          <h3 class="date">Storage: 500</h3>
+          <h2>Spiral NoteBook</h2>
+          <p>The BlackList spiral notebook, this cheap notebook will fit right into your backpack to take it anywhere!</p>
+          <h3>Price: $7</h3>
+          <button id="orderpage4" type="button" name="button" class="shopbutton">Buy now</button>
+        </header>
+      </section>
+
+      <section class="card" onclick="laatProductZien('showercurtain')">
+        <figure class="card-image"><img src="webshopimg/shirt/showercurtain.jpg" alt="Shower Curtain" style="width:100% "></figure>
+        <header class="card-text">
+          <h3 class="date">Storage: 10</h3>
+          <h2>Shower Curtain</h2>
+          <p>Red Shower Curtain, a perfect showercurtain to show your mistress! </p>
+          <h3>Price: $60</h3>
+          <button id="orderpage5" type="button" name="button" class="shopbutton">Buy now</button>
+        </header>
+      </section>
+
+      <section class="card" onclick="laatProductZien('mug')">
+        <figure class="card-image"><img src="webshopimg/shirt/mug.jpg" alt="mug" style="width:100% "></figure>
+        <header class="card-text">
+          <h3 class="date">Storage: 1000</h3>
+          <h2>Mug</h2>
+          <p>The BlackList Classic Mug, Perfect to start your morning routine.</p>
+          <h3>Price: $10</h3>
+          <button id="orderpage6" type="button" name="button" class="shopbutton">Buy now</button>
+        </header>
+      </section>
+    </section> <!-- Card GRID END-->
+    </main>
+
+    <div id="modal" class="modal modal-uit">
+      <div class ="container">
+        <button id="close-modal" class= "buttonz" onclick="laatModalVerdwijnen()">X</button>
+             <img id="modal-image" class="modal-plaatje" src="webshopimg/shirt/black.jpg" alt="Kast">
+             <h2 id="modal-titel" class="titel-modal"> None</h2>
+          <p id = "modal-details" class = "details-modal">none</p>
+          <p id = "prijs" class= "prijs"> $69.69</p>
+          <button id="orderpage7" type="button" name="button" class="shopbutton">Buy now</button>
+           
+      </div>
+    </div>
+  <script src="js/webshop.js"></script>
+  </body>
+</html>
